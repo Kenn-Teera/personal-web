@@ -1,3 +1,6 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: #121212;
 }
@@ -5,6 +8,22 @@ body {
 p {
     color: #D9D9D9;
 }
+
+
+.noto-sans-regular {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-sans-medium {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
 
 main {
     width: 840px;
@@ -23,6 +42,7 @@ figure {
     width: 225px;
     height: 225px;
     margin: 0 auto;
+    margin-top: 63px;
 }
 
 .introduck img {
@@ -33,12 +53,28 @@ figure {
 
 .introduck .fullname {
     margin: 0 auto;
-    width: auto;
+    width: 335px;
     text-align: center;
+    font-size: 49px;
+    height: 68px;
 }
 
 .introduck .a-role {
     margin: 0 auto;
     width: auto;
+    height: 30px;
     text-align: center;
+    font-size: 20px;
+}
+
+.introduck .quote {
+    margin: 0 auto;
+    width: auto;
+    height: 24px;
+    font-size: 16px;
+    padding-top: 30px;
+    text-align: center;
+    color: #5B5B5B;
+    stroke: #1B1B1B;
+    stroke-width: 1px;
 }
