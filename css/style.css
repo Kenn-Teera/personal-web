@@ -75,7 +75,7 @@ figure {
     width: 653px;
     height: auto;
     margin: 0 auto;
-    margin-top: 34px;
+    margin-top: 36px;
 }
 
 .about .topic {
@@ -92,5 +92,60 @@ figure {
     margin: 0 auto;
     font-size: 20px;
     text-align: justify;
-    margin-top: 10px;
+    margin-top: 25px;
+}
+
+.workex {
+    width: 653px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+
+.workex .topic {
+    height: 38px;
+    font-size: 31px;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-left: 4px;
+}
+
+.experience-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    font-size: 20px;
+    margin-top: 34px;
+}
+
+.date-range {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    height: auto;
+    color: #6a6a6a;
+}
+
+.role {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    height: auto;
+}
+
+.description {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+    height: auto;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.tools {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 0;
+    height: auto;
+    margin-top: 5px;
 }
