@@ -18,7 +18,7 @@ p {
 
 main {
     width: 840px;
-    height: 2600px;
+    height: 1800px;
     border-radius: 30px;
     background-color: #212121;
     margin-left: auto;
@@ -90,7 +90,7 @@ figure {
     width: 650px;
     height: auto;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 16px;
     text-align: justify;
     margin-top: 25px;
 }
@@ -102,7 +102,7 @@ figure {
     margin-top: 36px;
 }
 
-.workex .topic {
+.topic {
     height: 38px;
     font-size: 31px;
     font-weight: 600;
@@ -114,7 +114,7 @@ figure {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 34px;
 }
 
@@ -124,6 +124,7 @@ figure {
     margin: 0;
     height: auto;
     color: #6a6a6a;
+    font-size: 20px;
 }
 
 .role {
@@ -131,6 +132,7 @@ figure {
     grid-row: 1;
     margin: 0;
     height: auto;
+    font-size: 20px;
 }
 
 .description {
@@ -148,4 +150,81 @@ figure {
     margin: 0;
     height: auto;
     margin-top: 5px;
+}
+
+.project {
+    width: 653px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 36px;
+
+}
+
+.project-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    font-size: 16px;
+    margin-top: 34px;
+}
+
+.contract {
+    width: 653px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 36px;
+
+
+}
+
+.contract-group {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #9a9a9a;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.circle a {
+    color: black;
+}
+
+.gmail {
+    margin: 0 auto;
+    text-align: center;
+    width: 60px;
+    margin-top: 15px;
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
+.linkedin {
+    margin: 0 auto;
+    text-align: center;
+    width: 60px;
+    margin-top: 15px;
+}
+
+.fa-linkedin-in {
+    font-size: 30px;
+}
+
+.github {
+    margin: 0 auto;
+    text-align: center;
+    width: 60px;
+    margin-top: 15px;
+}
+
+.fa-github {
+    font-size: 30px;
 }
