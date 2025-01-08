@@ -4,7 +4,7 @@
 * {
     font-family: "Noto Sans", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -18,7 +18,7 @@ p {
 
 main {
     width: 840px;
-    height: 1800px;
+    height: auto;
     border-radius: 30px;
     background-color: #212121;
     margin-left: auto;
@@ -59,6 +59,17 @@ figure {
     font-size: 20px;
 }
 
+b {
+    font-weight: 800;
+    color: plum;
+}
+
+li {
+    color: #999999;
+    text-align: left;
+    margin-top: 3px;
+}
+
 .introduck .quote {
     margin: 0 auto;
     width: auto;
@@ -90,7 +101,7 @@ figure {
     width: 650px;
     height: auto;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
     margin-top: 25px;
 }
@@ -136,6 +147,7 @@ figure {
 }
 
 .description {
+    color: #999999;
     grid-column: 2;
     grid-row: 2;
     margin: 0;
@@ -150,6 +162,7 @@ figure {
     margin: 0;
     height: auto;
     margin-top: 5px;
+    color: #777777;
 }
 
 .project {
@@ -182,6 +195,7 @@ figure {
     grid-template-columns: 150px 150px 150px;
     justify-content: center;
     margin-top: 34px;
+    margin-bottom: 34px;
 }
 
 .circle {
